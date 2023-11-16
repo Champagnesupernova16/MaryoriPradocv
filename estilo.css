@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(252, 168, 243, 0.28);
+    color: black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  
+}
+
+
+.boton:hover{
+    background-color: rgba(190, 169, 179, 1);
+    box-shadow: none;
+    transition: 0.5s;
+}
+.boton a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Imprima;
+    font-weight: bold;
+
+    
+    
+}
+.encabezado {
+    width: 100%;
+    background-color: rgba(9, 5, 50, 1);
+}
+.menu{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    text-align: center;
+    height: 173px;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.menu li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    background-color: rgba(240, 238, 239, 1);
+    border-radius:50px;
+    padding: 25px 50px;
+    width: 291.16px;
+    height: 71.71px;
+    color: black;
+
+    cursor: pointer;
+    font-family: Imprima;
+    font-weight: bold;
+}
+
+
+.main{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    background-color: rgba(33, 11, 70, 0.27);
+    width: 586px;
+    height: 670px;
+    border-radius: 50px;
+    bottom: 50px;
+    
+    
+}
+
+.info-content h1{
+    color: #000;
+    text-align: center;
+    font-family: Imprima;
+    font-size: 50px;
+
+
+}
+
+.datosp {
+    height: 1024px;
+    width: 100%;
+    background-color: rgba(252, 168, 243, 0.28);
+
+}
+
+.conteinerdatosp img{
+    width: 481px;
+    height: 456px;
+    border-radius: 300px;
+    border: 10px solid rgba(184, 160, 176, 0.95);
+    top: 70px;
+
+}
+.conteinerdatosp{
+    
+    display: flex;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+    top: 70px;
+    justify-content: space-around;
+    bottom: 50px;
+    
+}
+
+.estudiofondo {
+    
+    background-image: url(img/fondoestudios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center;
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.info-datos{
+    
+    background-color: rgba(178, 164, 164, 0.7);
+    width: 765px;
+    height: 545px;
+    border-radius: 80px;
+    padding-top: 50px;
+    position: relative;
+    top: 120px;
+
+
+}
+
+
+.info-datos h1{
+    
+    font-family: Imprima;
+    font-size: 30px;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+    left: 30px;
+}
+
+.info-datos h2{
+    
+    font-family: Imprima;
+    font-size: 30px;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+    
+}
+
+img{
+    width: 481px;
+    height: 456px;
+    position: relative;
+    border-radius: 300px;
+    border: 10px solid rgba(184, 160, 176, 0.95);
+    top: 15px;
+}
+
+
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+
+}
+
+
+.compet {
+
+    height: 1024px;
+    width: 100%;
+    background-color: rgba(252, 168, 243, 0.28);
+    padding-top: 70px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.contenidodcomp{
+
+    border-radius: 80px;
+
+    font-family: Imprima;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    padding: 100px;
+    width: 90%;
+    height: 900px;
+    justify-content: space-around;
+}
+
+.titulo h1 {
+    font-family: Imprima;
+   
+}
+.contenedor-c {
+    background-color: wheat;
+    width: 370px;
+    height: 260px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.contenidodcomp h2 {
+    font-family: Imprima;
+    font-size: 30px;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.contacto {
+    background-color:rgba(252, 168, 243, 0.28);
+    width: 100%;
+    height: 1024px;
+    padding-top: 70px;
+    padding-left: 50px;
+
+}
+
+.contacto .fila {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto .col {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+
+}
+
+.contacto .col input, .contacto .col textarea {
+
+    display: block;
+    width: 550px;
+    padding: 18px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+
+}
+
+.col label {
+    position: absolute;
+    margin-top: -60px;
+    z-index: -20;
+    margin-left: 10px;
+}
+.formulario-input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.formulario-input:focus +
+.col label{
+    margin-top: -180px;
+}
+
+
+.contacto .col textarea {
+
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(229, 237, 133, 1);
+
+}
+
+.formulario-submit {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    width: fit-content;
+    display: block;
+    left: 0;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+
+.msjecontacto {
+    width: 520px;
+    height: auto;
+    position: relative;
+    
+}
+
+.msjecontacto h2 {
+    margin-bottom: 20px;
+}
+.msjecontacto h2,p {
+   
+    text-align: left;
+    font-family: Moul;
+
+}
+
+.nuevop {
+    font-family: Roboto Mono;
+    position: absolute;
+    margin-left: 2px;
+}
+
+footer{
+    background-color: rgba(9, 5, 50, 1);
+    width: 100%;
+    height: 73px;
+    padding: 10px 20px;
+       
+}
+
+/* modo oscuro*/
+
+.switch {
+    background: rgba(117, 147, 238, 1);
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    width: 90px;
+    height: 35px;
+
+}
+
+.switch span {
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: black;
+}
+
+.switch::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: white;
+    top: -5px;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+.switch.active::before {
+    background: rgba(242, 232, 131, 1);
+    color: black;
+    right: 0;
+    left: unset;
+}
+
+menu.active {
+    background-color: rgba(9, 5, 50, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    text-align: center;
+    width: 100%;
+    height: 173px;
+    text-decoration: none;
+    align-items: center;
+        
+}
+
+body.active .wrapper {
+    width: 100%;
+    height: 1024px;
+    background: rgba(9, 5, 50, 1);
+    color: pink;  
+}
+
+body.active .datosp {
+    background-color:  rgba(9, 5, 50, 1);
+}
+
+body.active .compet {
+    background-color:  rgba(9, 5, 50, 1);
+}
+
+body.active .contacto{
+    background-color:  rgba(9, 5, 50, 1);
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        display: grid;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        
+    }
+
+    .main{
+        margin: 0 auto;
+        
+        display: block;
+        text-align: center;
+        background-color: rgba(33, 11, 70, 0.27);
+        width: 300px;
+        height: 200px;
+        border-radius: 50px;
+        margin-top: 70px;
+           
+    }
+
+    img{
+        width: 210px;
+        height: 206px;
+        border-radius: 300px;
+        border: 5px solid rgba(184, 160, 176, 0.95);
+        margin-top: 15px;
+    }
+
+    .boton{
+        background-color: rgba(240, 238, 239, 1);
+        border: none;
+        margin-top: 5px;
+        width: 200px;
+        height: 50px;
+        
+        border-radius:50px;
+        padding: 15px 40px;
+        
+    }
+
+    footer{
+        background-color: rgba(9, 5, 50, 1);
+        width: 100%;
+        height: 40px;
+        padding: 5px 10px;
+        
+           
+    }
+
+    .main{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        background-color: rgba(33, 11, 70, 0.27);
+        width: 350px;
+        height: auto;
+        border-radius: 50px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        
+        
+    }
+
+    .info-content h1{
+      font-size: 30px;
+    
+    }
+
+    .maindatosp{
+    
+        display: block;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 20px;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    }
+    
+    .maindatosp div{
+        
+        background-color: rgba(178, 164, 164, 0.7);
+        width: 350px;
+        height: auto;
+        border-radius: 50px;
+        padding-top: 50px;
+        margin-top: 20px;
+        justify-content: center;
+
+    
+    
+    }
+    
+    .maindatosp img{
+        width: 210px;
+        height: 206px;
+        border-radius: 300px;
+        border: 5px solid rgba(184, 160, 176, 0.95);
+        margin-top: 70px;
+        
+       
+    
+    }
+
+    .info-datos h1{
+    
+        font-family: Imprima;
+        font-size: 20px;
+        color: #000;
+        font-style: normal;
+        line-height: normal;
+        margin-left: 30px;
+    }
+    
+    .info-datos h2{
+        
+        font-family: Imprima;
+        font-size: 20px;
+        color: #000;
+        font-style: normal;
+        line-height: normal;
+        margin: 10px;
+    }
+
+    .mainest {
+        margin: 0 auto;
+        display: block;
+        
+        background-color: rgba(178, 164, 164, 0.7);
+        width: 400px;
+        height:auto;
+        margin-top: 70px;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+      
+    }
+
+    .maincompyest {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+        background-color: rgba(178, 164, 164, 0.7);
+        width: 400px;
+        height: auto;
+        border-radius: 80px;
+        margin-top: 70px;
+        padding-top: 30px;
+        padding-left: 30px;
+      
+    }
+    
+    
+
+    
+    
+    
+
+}
